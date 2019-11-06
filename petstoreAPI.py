@@ -8,7 +8,7 @@ class bigdata:
             print(jsondata)
             for listdata in jsondata:
                 for key, value in listdata.items():
-                    if key == "category":
+                    if key == "status":
                         print(value)
         else:
           print("Call Failed with response code "+str(response.status_code))
